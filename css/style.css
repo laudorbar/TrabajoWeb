@@ -1,0 +1,141 @@
+body{
+    background-image: URL(../images/f_grande.jpg);
+    background-attachment: fixed;
+    text-align: center;
+}
+h2{
+    color: white;
+}
+header{
+    color:rgb(29,167,162);
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+}
+main #Curiosidades{
+    border: 2px solid rgb(255, 208, 0);
+    color: rgb(255, 255, 255);
+}
+main #Avances{
+    border: 2px solid rgb(68, 255, 0);
+    color: rgb(255, 255, 255);
+}
+main #Peligros{
+    border: 2px solid rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+main section article{
+    color: white;
+}
+main p{
+    color: rgb(255, 255, 255);
+}
+.seccion1{
+    border:1px solid rgb(255, 208, 0);
+    color: rgb(255, 255, 255);
+}
+.seccion2{
+    border: 1px solid rgb(68, 255, 0);
+    color: rgb(255, 255, 255);
+}  
+.seccion3{
+    border: 1px solid rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    
+}
+main article .articulos{
+    background-color: #1a7a76;
+}
+main .Art1_1{
+    color: rgb(255, 255, 255);
+}
+main .Art1_2{
+    color: rgb(255, 255, 255);
+}
+main .Art2_1{
+    color: rgb(255, 255, 255);
+}
+main .Art2_2{
+    color: rgb(255, 255, 255);
+}
+main .Art3_1{
+    color: rgb(255, 255, 255);
+}
+main .Art3_2{
+    color: rgb(255, 255, 255);
+}
+#formulario{
+    color:rgb(157, 228, 225);
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+}
+fieldset p{
+    color:rgb(157, 228, 225);
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+}
+.clicar{
+    color: white;
+}
+picture{
+    display: block;
+}
+.centrar-listas {
+	text-align: center;
+}
+.centrar-listas ul,
+.centrar-listas ol {
+	text-align: left;
+	display: inline-block;
+    color: rgb(255, 255, 255);
+}
+table {
+    width: 40%;
+    color: white;
+    border-collapse: collapse;
+	display: inline-block;
+
+}
+td {
+    border: 1.5px solid #3b9996;
+    text-align: center;
+}
+footer{
+    background-color: #116461;
+    color: rgb(181, 244, 245);
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+}
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #1da7a2;
+    border-radius: 8px;
+    background: #1da7a2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#1da7a2), to(#166662));
+    background: -moz-linear-gradient(top, #1da7a2, #166662);
+    background: linear-gradient(to bottom, #1da7a2, #166662);
+    -webkit-box-shadow: #1da7a2 0px 0px 40px 0px;
+    -moz-box-shadow: #1da7a2 0px 0px 40px 0px;
+    box-shadow: #1da7a2 0px 0px 40px 0px;
+    text-shadow: #031716 1px 1px 1px;
+    font: italic normal normal 20px comic sans ms;
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.7;
+}
+.button:hover{
+    opacity: 1;
+}
+.button:focus {
+    border: 1px solid #26d9d3;
+    background: #23c8c2;
+    background: -webkit-gradient(linear, left top, left bottom, from(#23c8c2), to(#1a7a76));
+    background: -moz-linear-gradient(top, #23c8c2, #1a7a76);
+    background: linear-gradient(to bottom, #23c8c2, #1a7a76);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #116461;
+    background: -webkit-gradient(linear, left top, left bottom, from(#116461), to(#166662));
+    background: -moz-linear-gradient(top, #116461, #166662);
+    background: linear-gradient(to bottom, #116461, #166662);
+}

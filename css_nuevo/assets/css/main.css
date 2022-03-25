@@ -1832,11 +1832,11 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background-color: #39454b;
+		background: rgb(42, 56, 77);
 		color: white;
 		height: 3em;
 		line-height: 3em;
-		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0 0.15em 0 rgba(255, 255, 255, 0.1);
 	}
 
 		#header h1 {
@@ -2177,7 +2177,7 @@ input, select, textarea {
 		margin: 0;
 		line-height: 1em;
 		padding: 1.5em;
-		background: #39454b;
+		background: rgb(42, 56, 77);
 		color: rgba(230, 230, 230, 0.5);
 		overflow: hidden;
 	}
@@ -2246,9 +2246,10 @@ input, select, textarea {
 
 	#intro {
 		background: url("images/overlay.png"), url("../../../images/Metaverse-Market.jpg");
-		background-size: cover;
+		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: top;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
 	}
 
 /* One */
@@ -2268,11 +2269,52 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
+
+/* Contact */
+
+	#contact {
+		overflow: hidden;
+		padding-bottom: 0;
+	}
+
+		#contact .box {
+			-moz-transition: -moz-transform 1s ease;
+			-webkit-transition: -webkit-transform 1s ease;
+			-ms-transition: -ms-transform 1s ease;
+			transition: transform 1s ease;
+			-moz-transform: translateY(0);
+			-webkit-transform: translateY(0);
+			-ms-transform: translateY(0);
+			transform: translateY(0);
+			position: relative;
+		}
+
+		#contact.inactive .box {
+			-moz-transform: translateY(100%);
+			-webkit-transform: translateY(100%);
+			-ms-transform: translateY(100%);
+			transform: translateY(100%);
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#contact .box {
+				padding: 1.5em 1.5em 2em 1.5em;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#contact .box {
+				padding: 1em 1em 2em 1em;
+			}
+
+		}
+
 /*Formulario*/
 
-	#formulario{
-		background: url("images/overlay.png"), url("../../../images/Metaverse-Market.jpg");
-		background-attachment: fixed;
-		color: white;
-		background-position: bottom;
-	}
+		#formulario{
+			background: rgb(65, 87, 119);
+			color: rgb(255, 255, 255);
+		}
