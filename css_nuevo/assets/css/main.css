@@ -45,11 +45,6 @@ blockquote, q {
 		content: none;
 	}
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -1042,39 +1037,6 @@ input, select, textarea {
 	footer {
 		margin-top: 2em;
 	}
-
-/* Table */
-
-	table {
-		width: 100%;
-	}
-
-		table.default {
-			width: 100%;
-		}
-
-			table.default tbody tr:nth-child(2n+2) {
-				background: rgba(229, 230, 231, 0.5);
-			}
-
-			table.default td {
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			table.default th {
-				text-align: left;
-				font-weight: 900;
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			table.default thead {
-				background: #39454b;
-				color: #ffffff;
-			}
-
-			table.default tfoot {
-				background: #e5e6e7;
-			}
 
 /* Poptrox */
 
@@ -2209,11 +2171,11 @@ input, select, textarea {
 /*Curiosidades_1*/
 
 #b3{
-	background: url("../../../images/");
-	background-repeat: no-repeat;
+	background: url("../../../images/img_619944d1502d3.jpg");
+	background-size: cover;
 	background-attachment: fixed;
 	text-align: center;
-	color:rgb(0, 0, 0);
+	color:rgb(255, 255, 255);
 }
 
 
@@ -2245,11 +2207,11 @@ picture{
 table {
 	width: 40%;
 	color: white;
-	border-collapse: collapse;
 	display: inline-block;
-
 }
 td {
 	border: 1.5px solid #3b9996;
-	text-align: center;
+	align-items: center;
+	
+	background-color: #041131;
 }
