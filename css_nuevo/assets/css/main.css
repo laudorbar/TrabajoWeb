@@ -2197,39 +2197,39 @@ input, select, textarea {
 			color:rgb(255, 255, 255);
 		}
 
-		#form{
-			color:rgb(157, 228, 225);
-			text-shadow: 0.1em 0.1em rgb(0, 0, 0);
-			font-size: small;
-		}
-		fieldset p{
-			color:rgb(157, 228, 225);
-			text-shadow: 0.1em 0.1em rgb(0, 0, 0);
-		}
-		.clicar{
-			color: white;
-		}
-		picture{
-			display: block;
-		}
-		.centrar-listas {
-			text-align: center;
-		}
-		.centrar-listas ul,
-		.centrar-listas ol {
-			text-align: left;
-			display: inline-block;
-			color: rgb(255, 255, 255);
-		}
+#form{
+	color:rgb(157, 228, 225);
+	text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+	font-size: small;
+}
+fieldset p{
+	color:rgb(157, 228, 225);
+	text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+}
+.clicar{
+	color: white;
+}
+picture{
+	display: block;
+}
+.centrar-listas {
+	text-align: center;
+}
+.centrar-listas ul,
+.centrar-listas ol {
+	text-align: left;
+	display: inline-block;
+	color: rgb(255, 255, 255);
+}
 
-		table {
-			width: 40%;
-			color: white;
-			border-collapse: collapse;
-			display: inline-block;
-		
-		}
-		td {
-			border: 1.5px solid #3b9996;
-			text-align: center;
-		}
+table {
+	width: 40%;
+	color: white;
+	border-collapse: collapse;
+	display: inline-block;
+
+}
+td {
+	border: 1.5px solid #3b9996;
+	text-align: center;
+}
