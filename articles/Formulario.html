@@ -12,15 +12,15 @@
 	</noscript>
 </head>
 
-<body>
+<body id="f">
     <header>
-        <h1>El metaverso</h1>
+        <h2>El metaverso</h2>
     </header>
-    <main id="formulario">
+    <main id="form">
         <form method="post" name="Preguntas sobre el Metaverso" action="mailto:ldorbar683@g.educaand.es" target="_self"
             enctype="text/plain">
             <div class="fields">
-                <fieldset>
+                <fieldset id="1">
                     <legend>Datos Personales</legend>
                     <label for="nombre">Introduzca su nombre completo:</label>
                     <input type="text" name="nombre" id="nombre" required autofocus>
@@ -80,16 +80,18 @@
                     </label>
                     <input type="email" name="correo" id="correo" size="30" required>
 
+                    <br>
+                    <br>
+
                     <label for="contraseña">
                         Introduzca su contraseña:
                     </label>
                     <input type="password" name="contraseña" id="contraseña">
+                    <br><br>
 
                 </fieldset>
-
                 <br>
-
-                <fieldset>
+                <fieldset id="2">
                     <legend>Pequeño cuestionario de opinión</legend>
                     <br>
                     <label for="resp_larga_1">
@@ -265,22 +267,25 @@
         </form>
     </main>
     <br>
-    <br>
-    <footer>
-        Alumno: Laura Dorado Barrero<br>
-        Asignatura: Lenguajes de marcas<br>
-        Curso: 2021-2022
+	<footer class="footer">
+		<div class="datos">
+			Alumno: Laura Dorado Barrero<br>
+			Asignatura: Lenguajes de marcas<br>
+			Curso: 2021-2022
+		</div>
+        		<!-- Icons -->
+		<ul class="icons">
+			<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+			<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+		</ul>
+
+		<!-- Menu -->
+		<ul class="menu">
+			<li>&copy; Untitled</li>
+			<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+		</ul>
     </footer>
 
-    	<!-- Scripts -->
-        <script src="../css_nuevo/assets/js/jquery.min.js"></script>
-        <script src="../css_nuevo/assets/js/jquery.poptrox.min.js"></script>
-        <script src="../css_nuevo/assets/js/jquery.scrolly.min.js"></script>
-        <script src="../css_nuevo/assets/js/jquery.scrollex.min.js"></script>
-        <script src="../css_nuevo/assets/js/browser.min.js"></script>
-        <script src="../css_nuevo/assets/js/breakpoints.min.js"></script>
-        <script src="../css_nuevo/assets/js/util.js"></script>
-        <script src="../css_nuevo/assets/js/main.js"></script>
 </body>
 
 </html>
