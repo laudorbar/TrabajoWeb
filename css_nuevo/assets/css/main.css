@@ -1677,10 +1677,17 @@ input::-moz-focus-inner {
 			background-color: #13285c;
 			text-align: center;
 		}
+
+		#f_h2{
+			color:#3b9996;
+			text-shadow:  0.1em 0.1em #030f2e;
+		}
+
 		fieldset{
 			border: 1.5px solid #3b9996;
 			text-align: center;
 		}
+
 		form{
 			display: inline-block;
 		}
@@ -1731,13 +1738,14 @@ input::-moz-focus-inner {
 	color:rgb(0, 0, 0);
 }
 
-#b4_h{
+#h{
 	background-color:rgba(160, 160, 160, 0.6);
 	text-align: center;
 	color:rgb(0, 0, 0);
+	display: inline-block;
 }
 
-#b4_m{
+#transparent{
 	background-color:rgba(160, 160, 160, 0.6);
 	text-align: center;
 	color:rgb(0, 0, 0);
@@ -1749,6 +1757,26 @@ input::-moz-focus-inner {
 
 #desvent{
 	background-color: rgba(207, 57, 57, 0.6);
+}
+
+/*Peligros_1*/
+
+#b5{
+	background: url("../../../images/metaverso-facebook-avatar.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	color:rgb(0, 0, 0);
+}
+
+/*Peligros_2*/
+
+#b6{
+	background: url("../../../images/Apple-metaverson-capa.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+	color:rgb(0, 0, 0);
 }
 
 #form{
