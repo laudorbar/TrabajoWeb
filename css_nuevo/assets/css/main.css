@@ -2318,3 +2318,7 @@ input, select, textarea {
 			background: rgb(65, 87, 119);
 			color: rgb(255, 255, 255);
 		}
+
+		#datos{
+			font-size: small;
+		}
