@@ -1741,14 +1741,14 @@ input::-moz-focus-inner {
 }
 
 #h{
-	background-color:rgba(160, 160, 160, 0.6);
+	background-color:rgba(160, 160, 160, 0.8);
 	text-align: center;
 	color:rgb(0, 0, 0);
 	display: inline-block;
 }
 
 .transparent{
-	background-color:rgba(160, 160, 160, 0.6);
+	background-color:rgba(160, 160, 160, 0.8);
 	text-align: center;
 	color:rgb(0, 0, 0);
 }
