@@ -9,6 +9,15 @@
     <noscript>
         <link rel="stylesheet" href="../css_nuevo/assets/css/noscript.css" />
     </noscript>
+    <script>
+        function minusculas(){
+            var email = document.getElementById("correo");
+            email.value = email.value.toLowerCase();
+        }
+        function copiar(){
+            document.getElementById("contraseña2").value = document.getElementById("contraseña").value;
+        }
+    </script>
 </head>
 
 <body id="f">
@@ -77,7 +86,7 @@
                     <label for="correo">
                         Introduzca su correo electrónico:
                     </label>
-                    <input type="email" name="correo" id="correo" size="30" required>
+                    <input type="email" name="correo" id="correo" size="30" required onchange="minusculas()">
 
                     <br>
                     <br>
@@ -86,6 +95,16 @@
                         Introduzca su contraseña:
                     </label>
                     <input type="password" name="contraseña" id="contraseña">
+                    <br><br>
+
+                    <br>
+                    <br>
+
+                    <label for="contraseña2">
+                        Repita su contraseña:
+                    </label>
+                    <input type="password" name="contraseña2" id="contraseña2">
+                    <button onclick="copiar()">Copiar contraseña</button> 
                     <br><br>
 
                 </fieldset>
