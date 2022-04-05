@@ -10,13 +10,28 @@
         <link rel="stylesheet" href="../css_nuevo/assets/css/noscript.css" />
     </noscript>
     <script>
-        function minusculas(){
+        function minusculas() {
             var email = document.getElementById("correo");
             email.value = email.value.toLowerCase();
-        }
-        function copiar(){
+        };
+        function copiar() {
             document.getElementById("contraseña2").value = document.getElementById("contraseña").value;
-        }
+        };
+        function down() {
+
+            document.getElementById("edad").style.backgroundColor = "green";
+
+        };
+        function up() {
+
+            document.getElementById("edad").style.backgroundColor = "white";
+
+        };
+        function pulsar(){
+
+            alert("Compruebe que ha rellenado todos los campos del formulario, gracias por su colaboración.");
+
+        };
     </script>
 </head>
 
@@ -39,7 +54,7 @@
                     <label for="edad">
                         Introduzca su edad actual:
                     </label>
-                    <input type="number" name="edad" id="edad" required>
+                    <input type="text" name="edad" id="edad" required onkeydown="down()" onkeyup="up()">
 
                     <br>
                     <br>
@@ -95,7 +110,6 @@
                         Introduzca su contraseña:
                     </label>
                     <input type="password" name="contraseña" id="contraseña">
-                    <br><br>
 
                     <br>
                     <br>
@@ -104,7 +118,7 @@
                         Repita su contraseña:
                     </label>
                     <input type="password" name="contraseña2" id="contraseña2">
-                    <button onclick="copiar()">Copiar contraseña</button> 
+                    <button onclick="copiar()">Copiar contraseña</button>
                     <br><br>
 
                 </fieldset>
@@ -263,15 +277,19 @@
                     <br>
                     <br>
 
-                    <button type="submit" value="enviar" name="enviar" id="enviar">
-                        Enviar formulario
-                    </button>
-
-                    <button type="reset" value="reset" name="reset" id="reset">
-                        Restablecer valores del formulario
-                    </button>
-
                 </fieldset>
+
+                <br>
+                <br>
+                <button type="submit" value="enviar" name="enviar" id="enviar" onblur=z "pulsar()">
+                    Enviar formulario
+                </button>
+
+                <button type="reset" value="reset" name="reset" id="reset">
+                    Restablecer valores del formulario
+                </button>
+
+
 
                 <br>
                 <br>
@@ -288,10 +306,12 @@
             Curso: 2021-2022
         </div>
         <!-- Icons -->
-		<ul class="icons">
-			<li><a href="https://www.facebook.com/laura.dorado.562" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-			<li><a href="https://www.instagram.com/dorado.07/?hl=es" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-		</ul>
+        <ul class="icons">
+            <li><a href="https://www.facebook.com/laura.dorado.562" class="icon brands fa-facebook-f"><span
+                        class="label">Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/dorado.07/?hl=es" class="icon brands fa-instagram"><span
+                        class="label">Instagram</span></a></li>
+        </ul>
 
         <!-- Menu -->
         <ul class="menu">
